@@ -1,0 +1,114 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgba(14, 128, 251, 0.721) 0%, rgb(146, 100, 20) 50%, rgb(85, 203, 6) 300%);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 70px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 64, 218);
+}
+
+.head {
+    margin-top: 90px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 400px;
+    width: 500px;
+}
+
+.img-1 {
+    height: 500px;
+    width: 400px;
+}
+
+.hobby-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
